@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - PraRoz Web Design & Development Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>PraRoz</h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Service</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">HTML Class</a></li>
+                        <li><a href="#">CSS Class</a></li>
+                        <li><a href="#">JavaScript Class</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Thanks For watching">
+                <button>Search</button>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="sign-up-form">
+            <h2>Sign Up Here</h2>
+            <form id="signUpForm">
+                <input type="text" id="signUpUsername" placeholder="Username">
+                <span id="signUpUsernameError" class="error-message"></span>
+                <input type="email" id="signUpEmail" placeholder="Email">
+                <span id="signUpEmailError" class="error-message"></span>
+                <input type="password" id="signUpPassword1" placeholder="Password">
+                <span id="signUpPassword1Error" class="error-message"></span>
+                <input type="password" id="signUpPassword2" placeholder="Confirm Password">
+                <span id="signUpPassword2Error" class="error-message"></span>
+                <button type="submit">Sign Up</button>
+                <p>Already have an account? <a href="index.html">Login here</a></p>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PraRoz Web Design & Development Course</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>PraRoz</h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Service</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">HTML Class</a></li>
+                        <li><a href="#">CSS Class</a></li>
+                        <li><a href="#">JavaScript Class</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Thanks For watching">
+                <button>Search</button>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="content">
+            <h1>Web Design & <br> <span>Development Course</span> </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque expedita atque eveniet quis nesciunt. Quos nulla vero consequuntur, fugit nemo ad delectus a quae totam ipsa illum minus laudantium?</p>
+            <button>Join Us</button>
+        </div>
+        <div class="login-form">
+            <h2>Login Here</h2>
+            <form id="loginForm">
+                <input type="text" id="loginUsername" placeholder="Username">
+                <span id="loginUsernameError" class="error-message"></span>
+                <input type="password" id="loginPassword" placeholder="Password">
+                <span id="loginPasswordError" class="error-message"></span>
+                <button type="submit">Login</button>
+                <p>Don't have an account <a href="signup.html">Sign up here</a></p>
+            </form>
+            <div class="social-login">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
